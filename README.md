@@ -16,7 +16,14 @@ This repo is a collection of prompt engineering resources and tools.
 - [Awesome Prompts](https://github.com/ai-boost/awesome-prompts)
 - [DEV ChatGPT Prompts](https://github.com/PickleBoxer/dev-chatgpt-prompts)
 - [Become God Like Prompt Engineer With This One Prompt](https://www.reddit.com/r/ChatGPT/comments/14d7pfz/become_god_like_prompt_engineer_with_this_one/)
-  - See `prompt_engineering/prompt_engineer.md` in this repo.
+- [Hero Prompt Library](https://hero.page/discover)
+- [Snack Prompt](https://snackprompt.com/prompts)
+- [OpenAI Prompt Examples](https://platform.openai.com/docs/examples)
+- [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library/library)
+- [ChatGPT Prompts - Node.js Library](https://github.com/pacholoamit/chatgpt-prompts)
+- [Google Vertex AI Studio Prompt Gallery](https://console.cloud.google.com/vertex-ai/studio/prompt-gallery?project=new-slate-websit-1553874306995)
+- [Google AI Studio Gallery](https://aistudio.google.com/app/gallery)
+
 
 ### Frameworks & Tools
 

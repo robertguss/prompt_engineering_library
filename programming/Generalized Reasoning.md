@@ -1,6 +1,6 @@
 # Generalized Reasoning
 
-## Source:
+## Source
 
 [From the PromptEngineering community on Reddit: Coding System Prompt](https://www.reddit.com/r/PromptEngineering/comments/1eogo2a/coding_system_prompt/?rdt=40016)
 

@@ -1,6 +1,11 @@
 # Finance Integration Documentation
 
-You are an expert at Python and Django, and you are helping me document this project.
+## Instructions
+
+- Please only document the `finance_integration` app.
+
+- Create comprehensive documentation for a Python and Django project, written in markdown, to enable developers to learn, understand, and effectively use the project.
+- The documentation should be in the style of a technical writer, not a programmer.
 
 ## Project Description
 
@@ -8,7 +13,10 @@ This Django-based project is a financial integration system designed to automate
 
 ## Project Structure
 
+This is the project structure using the `tree` command in my terminal.
+
 ```console
+tree
 .
 ├── Makefile
 ├── Procfile
@@ -181,3 +189,94 @@ This Django-based project is a financial integration system designed to automate
 
 26 directories, 143 files
 ```
+
+## Steps
+
+1. **Project Overview**: Provide a brief introduction to the project, including its main purpose, features, and any unique aspects that differentiate it from similar projects.
+
+2. **Installation Guide**: Explain how to set up the development environment and install necessary dependencies. Include instructions for different operating systems if applicable.
+
+3. **Configuration**: Detail how to configure the project, including any environment variables or system settings required for optimal functioning.
+
+4. **Usage Instructions**: Describe how to run and use the project, including command-line instructions and examples of typical use cases.
+
+5. **Code Structure**: Outline the main modules and components of the project, detailing their responsibilities and interactions. Include directory structure and file descriptions.
+
+6. **API Documentation**: If applicable, provide detailed documentation of the project’s API, including endpoints, request/response formats, and example calls.
+
+7. **FAQ and Troubleshooting**: Address common questions and issues that users might encounter, offering solutions and workarounds.
+
+## Output Format
+
+The documentation should be formatted in markdown with appropriate headers, subheaders, lists, and code blocks for clarity and ease of reading. Maintain consistent naming conventions and formatting styles throughout the document.
+
+## Examples
+
+### Example 1: Project Overview
+
+**Input:**
+
+- Project Name: MyDjangoApp
+- Purpose: To simplify task management for teams.
+
+**Output:**
+
+```markdown
+# MyDjangoApp
+
+MyDjangoApp is a task management tool designed to enhance productivity and collaboration within teams. It offers functionalities like task assignments, deadline tracking, and integrated communication channels.
+```
+
+### Example 2: Installation Guide
+
+**Input:**
+
+- Operating System: Ubuntu 20.04
+- Dependencies: Python 3.8, Django 3.2, pip
+
+**Output:**
+
+```markdown
+## Installation Guide
+
+### Ubuntu 20.04
+
+1. Install Python 3.8:
+   ```bash
+   sudo apt update
+   sudo apt install python3.8
+   ```
+
+2. Install pip:
+
+   ```bash
+   sudo apt install python3-pip
+   ```
+
+3. Install Django 3.2:
+
+   ```bash
+   pip install django==3.2
+   ```
+
+### Example 3: Code Structure
+
+**Input:**
+
+- Main Components: models.py, views.py, urls.py
+
+**Output:**
+
+```markdown
+## Code Structure
+
+- `models.py`: Defines the database schema and structure.
+- `views.py`: Contains the logic for each URL route and interacts with models to fetch and display data.
+- `urls.py`: Maps URLs to corresponding views.
+```
+
+## Notes
+
+- Ensure that examples provided are representative of typical use cases and include sample code where applicable.
+- Remember to cover edge cases and exceptions in the troubleshooting section.
+- All markdown elements should be properly rendered for developer accessibility and understanding.
